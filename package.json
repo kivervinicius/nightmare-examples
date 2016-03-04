@@ -1,0 +1,19 @@
+{
+  "name": "nightmare-examples",
+  "version": "0.1.0",
+  "description": "Examples for common Nightmare usage",
+  "author": {
+    "name":"Ross Hinkley",
+    "email":"rosshinkley@gmail.com"
+  },
+  "repository":{
+    "type":"git",
+    "url":"https://github.com/rosshinkley/nightmare-examples"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "co": "^4.6.0",
+    "nightmare": "^2.2.0",
+    "vo": "^3.0.4"
+  }
+}
