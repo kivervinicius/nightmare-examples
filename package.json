@@ -10,6 +10,9 @@
     "type":"git",
     "url":"https://github.com/rosshinkley/nightmare-examples"
   },
+  "keywords":[
+    "nightmare"
+  ],
   "license": "MIT",
   "dependencies": {
     "co": "^4.6.0",
