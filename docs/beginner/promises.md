@@ -63,7 +63,7 @@ nightmare
 Note that the Nightmare instance is getting returned.  Again, Nightmare exposes an internally defined version of `.then()` that can be leveraged to get the desired behavior.
 
 ## References
-- [Runnable `Promise` examples](https://github.com/rosshinkley/nightmare-examples/examples/beginner/promises)
+- [Runnable `Promise` examples](https://github.com/rosshinkley/nightmare-examples/tree/master/examples/beginner/promises)
 - [`then...catch` issues](https://github/com/rosshinkley/nightmare-examples/docs/known-ssues/then-catch.md)
 - [Original Yahoo example](https://github.com/segmentio/nightmare#examples)
 - [MDN Promise documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)

@@ -66,6 +66,6 @@ vo(run)('#main .searchCenterMiddle li a', function(err, result){
 ## References
 - [vo](https://github.com/lapwinglabs/vo)
 - [Original Yahoo example](https://github.com/segmentio/nightmare#examples)
-- [Runnable `vo` examples](https://github.com/rosshinkley/nightmare-examples/examples/beginner/vo)
+- [Runnable `vo` examples](https://github.com/rosshinkley/nightmare-examples/tree/master/examples/beginner/vo)
 - [MDN `function*` documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*)
 - [MDN `yield` documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/yield)

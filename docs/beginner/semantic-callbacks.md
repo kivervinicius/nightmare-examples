@@ -31,5 +31,5 @@ nightmare
 ```
 
 ## References
-- [Runnable semantic callback examples](https://github.com/rosshinkley/nightmare-examples/examples/beginner/semantic-callbacks)
+- [Runnable semantic callback examples](https://github.com/rosshinkley/nightmare-examples/tree/master/examples/beginner/semantic-callbacks)
 - [Nightmare #516](https://github.com/segmentio/nightmare/issues/516) - much of the content here was borrowed from [@Mr0grog](https://github.com/Mr0grog)'s excellent explanation.

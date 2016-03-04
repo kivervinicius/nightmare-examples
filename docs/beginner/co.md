@@ -71,6 +71,6 @@ co.wrap(run)('#main .searchCenterMiddle li a')
 ## References
 - [co](https://github.com/tj/co)
 - [Original Yahoo example](https://github.com/segmentio/nightmare#examples)
-- [Runnable `co` examples](https://github.com/rosshinkley/nightmare-examples/examples/beginner/co)
+- [Runnable `co` examples](https://github.com/rosshinkley/nightmare-examples/tree/master/examples/beginner/co)
 - [MDN `function*` documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*)
 - [MDN `yield` documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/yield)
