@@ -35,7 +35,7 @@ co(run).then(function(result){
 Nightmare internally (partially) implements promises by exposing `.then()`.  This allows it to be `yield`able for use under `co`.
 
 ## Parameters
-Parameters in `co` are most easily dealt with by using `co.wrap()`.  The following example is the same as above, with the selector for the link `href` passed in.  This also shows how to pass parameters from the parent Nightmare process to the child Electron process through `.evaluate()`:
+Parameters in `co` are passed by using `co.wrap()`.  The following example is the same as above, with the selector for the link `href` passed in.  This also shows how to pass parameters from the parent Nightmare process to the child Electron process through `.evaluate()`:
 
 ```js
 var Nightmare = require('nightmare'),
