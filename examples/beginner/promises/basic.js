@@ -16,3 +16,6 @@ nightmare
   .then(function(result) {
     console.log(result);
   })
+  .catch(function(error){
+    console.error('an error has occurred: ' + error);
+  });
