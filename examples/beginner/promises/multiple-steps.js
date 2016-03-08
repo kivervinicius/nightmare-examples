@@ -29,4 +29,7 @@ nightmare
   })
   .then(function() {
     console.log('done');
+  })
+  .catch(function(error){
+    console.error('an error has occurred: ' + error);
   });

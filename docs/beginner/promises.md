@@ -19,7 +19,10 @@ nightmare
   .end()
   .then(function(result) {
     console.log(result);
-  })
+  }
+  .catch(function(error){
+    console.error('an error has occurred: ' + error);
+  });)
 ```
 
 ## Running multiple steps
@@ -57,6 +60,9 @@ nightmare
   })
   .then(function() {
     console.log('done');
+  })
+  .catch(function(error){
+    console.error('an error has occurred: ' + error);
   });
 ```
 
