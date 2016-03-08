@@ -35,4 +35,4 @@ var run = function*() {
 //use `vo` to execute the generator function
 vo(run)(function(err, result) {
   console.log(result);
-})
+});

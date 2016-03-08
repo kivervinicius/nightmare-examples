@@ -1,6 +1,6 @@
 # Using `vo`
 
-[`vo`](https://github.com/lapwinglabs/vo) is a small flow library.  With Nightmare, you can use it to `yield` call chains.  Consider the Yahoo example:
+[`vo`](https://github.com/lapwinglabs/vo) is a small flow library.  With Nightmare, you can use it to `yield` call chains.  The following example searches for `github nightmare` at Yahoo and returns the first HREF in the search results:
 
 ```js
 var Nightmare = require('nightmare'),
@@ -9,23 +9,36 @@ var Nightmare = require('nightmare'),
     show: true
   });
 
-var run = function*(){
+var run = function*() {
+  //declare the result and wait for Nightmare's queue defined by the following chain of actions to complete
   var result = yield nightmare
-  .goto('http://yahoo.com')
-  .type('input[title="Search"]', 'github nightmare')
-  .click('#uh-search-button')
-  .wait('#main')
-  .evaluate(function() {
-    return document.querySelector('#main .searchCenterMiddle li a')
-      .href;
-  });
+    //load a url
+    .goto('http://yahoo.com')
+    //simulate typing into an element identified by a CSS selector
+    //here, Nightmare is typing into the search bar
+    .type('input[title="Search"]', 'github nightmare')
+    //click an element identified by a CSS selector
+    //in this case, click the search button
+    .click('#uh-search-button')
+    //wait for an element identified by a CSS selector
+    //in this case, the body of the results
+    .wait('#main')
+    //execute javascript on the page
+    //here, the function is getting the HREF of the first search result
+    .evaluate(function() {
+      return document.querySelector('#main .searchCenterMiddle li a')
+        .href;
+    });
 
+  //queue and end the Nightmare instance along with the Electron instance it wraps
   yield nightmare.end();
 
+  //return the HREF
   return result;
 };
 
-vo(run)(function(err, result){
+//use `vo` to execute the generator function
+vo(run)(function(err, result) {
   console.log(result);
 });
 ```
@@ -42,23 +55,41 @@ var Nightmare = require('nightmare'),
     show: true
   });
 
-var run = function*(selector){
+//the generator accepts the selector to get the first search result
+var run = function*(selector) {
+  //declare the result and wait for Nightmare's queue defined by the following chain of actions to complete
   var result = yield nightmare
-  .goto('http://yahoo.com')
-  .type('input[title="Search"]', 'github nightmare')
-  .click('#uh-search-button')
-  .wait('#main')
-  .evaluate(function(selector) {
-    return document.querySelector(selector)
-      .href;
-  }, selector);
+    //load a url
+    .goto('http://yahoo.com')
+    //simulate typing into an element identified by a CSS selector
+    //here, Nightmare is typing into the search bar
+    .type('input[title="Search"]', 'github nightmare')
+    //click an element identified by a CSS selector
+    //in this case, click the search button
+    .click('#uh-search-button')
+    //wait for an element identified by a CSS selector
+    //in this case, the body of the results
+    .wait('#main')
+    //execute javascript on the page
+    //here, the function is getting the HREF of the first match do the selector parameter
+    //note the selector is passed in as the second argument to evaluate
+    .evaluate(function(selector) {
+      return document.querySelector(selector)
+        .href;
+    }, selector);
 
+  //queue and end the Nightmare instance along with the Electron instance it wraps
   yield nightmare.end();
 
+  //return the HREF
   return result;
 };
 
-vo(run)('#main .searchCenterMiddle li a', function(err, result){
+//use `vo` to execute the generator function, allowing parameters to be passed to the generator
+vo(run)('#main .searchCenterMiddle li a', function(err, result) {
+  if (err) {
+    console.error('an error occurred: ' + err);
+  }
   console.log(result);
 });
 ```
