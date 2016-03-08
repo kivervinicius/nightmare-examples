@@ -17,7 +17,7 @@ Start here if you're new to Nightmare.
 - [`then...catch`](https://github.com/rosshinkley/nightmare-examples/blob/master/docs/known-issues/then-catch.md)
 
 ## Examples
-Simply run `npm install` to install the dependencies.  After that, all of the examples are runnable using `node [example]`.
+Run `npm install` to install the dependencies.  After that, all the examples are runnable using `node [example]`.
 
 ## Additions and Corrections
 If something has been missed, needs correcting, or you have a question, feel free to open an issue or pull request.

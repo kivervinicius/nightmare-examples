@@ -23,7 +23,7 @@ nightmare
 ```
 
 ## Running multiple steps
-Promises are useful for chaining multiple steps together using `.then()`.  Say we wanted to modify the Yahoo example to get the first link from the first _and_ second result page:
+Promises are useful for chaining multiple steps together using `.then()`.  Say we wanted to change the Yahoo example to get the first link from the first _and_ second result page:
 
 ```js
 var Nightmare = require('nightmare'),

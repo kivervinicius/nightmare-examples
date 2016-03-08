@@ -1,5 +1,5 @@
 # `then...catch`
-The internal `.then()` method to Nightmare does not work precisely like native Promise `.then()`, instead _always_ opting to take the success and rejection callback for the promise.  This was probably done in an effort to ensure `vo`, `co`, and possibly `mocha-generators` would work nicely with Nightmare.
+The internal `.then()` method to Nightmare does not work precisely like native Promise `.then()`, instead _always_ opting to take the success and rejection callback for the promise.  This was probably done to make sure `vo`, `co`, and possibly `mocha-generators` would work nicely with Nightmare.
 
 The side effect of this is minor, causing exceptions internal to `.then()` to behave differently to their Promise counterparts.  Consider: 
 
@@ -18,7 +18,7 @@ nightmare
     console.log('second argument error');
   });
 ```
-In an ordinary promise, the rejection argument would not get called.  However, in Nightmare, it does.
+In an ordinary promise, the rejection argument would not get called, yet in Nightmare, it does.
 
 ## Solution
 Alter the `.then()` implementation to call `.then(fulfill, reject)` instead of `.then(fulfill).catch(reject)`.  As yet, PR is unsubmitted.

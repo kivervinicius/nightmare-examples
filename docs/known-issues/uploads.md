@@ -1,8 +1,8 @@
 # Uploads with Nightmare
-When presented with a `<input type='file'>`, being able to add files to it in some way would be handy, either directly or via overriding the file selection dialog (similar to `will-download`).
+When presented with a `<input type='file'>`, being able to add files would be useful, either directly or by overriding the file selection dialog (like `will-download`).
 
 ## Solution
-Currently, uploads are not possible with Electron.
+Uploads using `<input type=;file'>` are not possible with Electron.
 
 ## References
 - [Nightmare #235](https://github.com/segmentio/nightmare/issues/235) - Asked after Nightmare v2.x was released and uploads were removed.
