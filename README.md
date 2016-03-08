@@ -9,7 +9,7 @@ Start here if you're new to Nightmare.
 - [Native promises](https://github.com/rosshinkley/nightmare-examples/blob/master/docs/beginner/promises.md)
 - [`vo`](https://github.com/rosshinkley/nightmare-examples/blob/master/docs/beginner/vo.md)
 - [`co`](https://github.com/rosshinkley/nightmare-examples/blob/master/docs/beginner/co.md)
-- [Semantic callbacks](https://github.com/rosshinkley/nightmare-examples/blob/master/docs/beginner/semantic-callbacks.md)
+- [Callbacks](https://github.com/rosshinkley/nightmare-examples/blob/master/docs/beginner/callbacks.md)
 
 ### Known Issues
 
