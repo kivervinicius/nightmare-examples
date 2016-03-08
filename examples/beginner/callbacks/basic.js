@@ -1,5 +1,4 @@
 var Nightmare = require('nightmare'),
-  co = require('co'),
   nightmare = Nightmare({
     show: true
   });

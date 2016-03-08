@@ -6,7 +6,6 @@ Using `.run()`, plain callbacks can be used to control Nightmare:
 
 ```js
 var Nightmare = require('nightmare'),
-  co = require('co'),
   nightmare = Nightmare({
     show: true
   });
