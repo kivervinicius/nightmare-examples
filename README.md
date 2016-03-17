@@ -22,6 +22,7 @@ Working with an automated web browser can be complex. Here are a few common gotc
 
 - [Uploads](https://github.com/rosshinkley/nightmare-examples/blob/master/docs/known-issues/uploads.md)
 - [`then...catch`](https://github.com/rosshinkley/nightmare-examples/blob/master/docs/known-issues/then-catch.md)
+- [Globally defined variables in injected scripts](https://github.com/rosshinkley/nightmare-examples/blob/master/docs/globally-defined.variables.md)
 
 ## Examples
 
