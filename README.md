@@ -16,9 +16,14 @@ New to Nightmare? The most basic way to use it is with promises or callbacks. He
 - [`vo`](https://github.com/rosshinkley/nightmare-examples/blob/master/docs/beginner/vo.md)
 - [`co`](https://github.com/rosshinkley/nightmare-examples/blob/master/docs/beginner/co.md)
 
+### Common Pitfalls
+Working with an automated web browser can be complex. Here are a few common gotchas and issues you might run into while working with Nightmare:
+
+- [Asynchronous operations and loops](https://github.com/rosshinkley/nightmare-examples/blob/master/docs/common-pitfalls/async-operations-loops.md)
+
 ### Known Issues
 
-Working with an automated web browser can be complex. Here are a few common gotchas and issues you might run into while working with Nightmare:
+Here are some known problems with Nightmare:
 
 - [Uploads](https://github.com/rosshinkley/nightmare-examples/blob/master/docs/known-issues/uploads.md)
 - [`then...catch`](https://github.com/rosshinkley/nightmare-examples/blob/master/docs/known-issues/then-catch.md)
