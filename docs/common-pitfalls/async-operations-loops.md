@@ -28,7 +28,7 @@ nightmare.goto('http://example2.com')
         console.log(title
     });
 ```
-The expectation would be the following:
+The expectation might be:
 
 1. Go to `example.com`.
 1. Get the title.
@@ -82,7 +82,7 @@ urls.forEach(function(url) {
 console.dir(results)
 ```
 
-This has the same problems as before: Nightmare is executing multiple queues against the same instance.  The above has a new wrinkle in that there could be an arbitrary nummber of URLs to go to.  The results will likely be empty as none of the Nightmare chains have had time to finish executing yet.
+This has the same problems as before: Nightmare is executing multiple queues against the same instance.  The above has a new wrinkle in that there could be an arbitrary nummber of URLs to go to.  The results will likely be empty as none of the Nightmare chains have had time to finish executing.
 
 ### Vanilla JS
 A variable number of queues can be solved through `Array.reduce`.  Consider:
