@@ -1,3 +1,6 @@
+# 0.2.1 - 2016-03-22
+- Fixes a broken link on the readme to globally defined variables.
+
 # 0.2.0 - 2016-03-17
 - Fixes #8 - Changed `semantic callback` to `callback`.
 - Fixes #7 - Removed `co` reference from the callback examples.
