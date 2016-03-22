@@ -27,7 +27,7 @@ Here are some known problems with Nightmare:
 
 - [Uploads](https://github.com/rosshinkley/nightmare-examples/blob/master/docs/known-issues/uploads.md)
 - [`then...catch`](https://github.com/rosshinkley/nightmare-examples/blob/master/docs/known-issues/then-catch.md)
-- [Globally defined variables in injected scripts](https://github.com/rosshinkley/nightmare-examples/blob/master/docs/globally-defined.variables.md)
+- [Globally defined variables in injected scripts](https://github.com/rosshinkley/nightmare-examples/blob/master/docs/known-issues/globally-defined-variables.md)
 
 ## Examples
 
