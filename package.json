@@ -1,6 +1,6 @@
 {
   "name": "nightmare-examples",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Examples for common Nightmare usage",
   "author": {
     "name": "Ross Hinkley",
@@ -19,7 +19,7 @@
     "co": "^4.6.0",
     "express": "^4.13.4",
     "mocha-generators": "^1.2.0",
-    "nightmare": "^2.2.0",
+    "nightmare": "^2.5.0",
     "serve-static": "^1.10.2",
     "vo": "^3.0.4"
   }
