@@ -15,6 +15,7 @@ New to Nightmare? The most basic way to use it is with promises or callbacks. He
 
 - [`vo`](https://github.com/rosshinkley/nightmare-examples/blob/master/docs/beginner/vo.md)
 - [`co`](https://github.com/rosshinkley/nightmare-examples/blob/master/docs/beginner/co.md)
+- [`mocha-generators`](https://github.com/rosshinkley/nightmare-examples/blob/master/docs/beginner/mocha-generators.md)
 
 ### Common Pitfalls
 Working with an automated web browser can be complex. Here are a few common gotchas and issues you might run into while working with Nightmare:
