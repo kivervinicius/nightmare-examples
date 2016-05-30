@@ -30,7 +30,7 @@ Nightmare may not do everything out of the box that you need it to do.
 Working with an automated web browser can be complex. Here are a few common gotchas and issues you might run into while working with Nightmare:
 
 - [Asynchronous operations and loops](https://github.com/rosshinkley/nightmare-examples/blob/master/docs/common-pitfalls/async-operations-loops.md)
-- [Variable lifting with `.evaluate()`](https://github.com/rosshinkley/nightmare-examples/blob/master/docs/common-pitfalls/variable-lifting.md
+- [Variable lifting with `.evaluate()`](https://github.com/rosshinkley/nightmare-examples/blob/master/docs/common-pitfalls/variable-lifting.md)
 
 ### Known Issues
 

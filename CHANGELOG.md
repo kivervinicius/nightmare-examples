@@ -1,3 +1,8 @@
+# 0.3.0 - 2016-05-30
+- Adds #3 - documentation for `.use()` and `.action()`
+- Adds #14 - variable lifting with `.evaluate()`
+- Adds #26 - using Nightmare with `mocha-generators`
+
 # 0.2.1 - 2016-03-22
 - Fixes a broken link on the readme to globally defined variables.
 
