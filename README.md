@@ -20,6 +20,7 @@ New to Nightmare? The most basic way to use it is with promises or callbacks. He
 Working with an automated web browser can be complex. Here are a few common gotchas and issues you might run into while working with Nightmare:
 
 - [Asynchronous operations and loops](https://github.com/rosshinkley/nightmare-examples/blob/master/docs/common-pitfalls/async-operations-loops.md)
+- [Variable lifting with `.evaluate()`](https://github.com/rosshinkley/nightmare-examples/blob/master/docs/common-pitfalls/variable-lifting.md
 
 ### Known Issues
 
