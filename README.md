@@ -11,11 +11,20 @@ New to Nightmare? The most basic way to use it is with promises or callbacks. He
 - [Native promises](https://github.com/rosshinkley/nightmare-examples/blob/master/docs/beginner/promises.md)
 - [Callbacks](https://github.com/rosshinkley/nightmare-examples/blob/master/docs/beginner/callbacks.md)
 
-**You can also use Nightmare with generators.** Several JavaScript libraries use generators to give you a simpler way to deal with asynchronous events. Here’s how to use Nightmare with some of them:
+#### Nightmare and Generators
+
+Several JavaScript libraries use generators to give you a simpler way to deal with asynchronous events. Here’s how to use Nightmare with some of them:
 
 - [`vo`](https://github.com/rosshinkley/nightmare-examples/blob/master/docs/beginner/vo.md)
 - [`co`](https://github.com/rosshinkley/nightmare-examples/blob/master/docs/beginner/co.md)
 - [`mocha-generators`](https://github.com/rosshinkley/nightmare-examples/blob/master/docs/beginner/mocha-generators.md)
+
+#### Extending Nightmare
+
+Nightmare may not do everything out of the box that you need it to do.
+
+- [`.action()`](https://github.com/rosshinkley/nightmare-examples/blob/master/docs/beginner/action.md) - Look here if adding a method that does a specific activity in the browser.
+- [`.use()`](https://github.com/rosshinkley/nightmare-examples/blob/master/docs/beginner/use.md) - Wrap several actions up for reusability in one tidy place.
 
 ### Common Pitfalls
 Working with an automated web browser can be complex. Here are a few common gotchas and issues you might run into while working with Nightmare:
