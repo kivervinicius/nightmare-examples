@@ -1,3 +1,6 @@
+# 0.3.1 - 2016-05-30
+- Botched publish necessitated unpublishing 0.3.0 and publishing under new version.
+
 # 0.3.0 - 2016-05-30
 - Adds #3 - documentation for `.use()` and `.action()`
 - Adds #14 - variable lifting with `.evaluate()`
